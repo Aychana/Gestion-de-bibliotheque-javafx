@@ -348,17 +348,17 @@ public class EmpruntController {
     }
 
     // Ajout de la méthode handleBackToMain
-    @FXML
-    private void handleBackToMain() {
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("mainView.fxml"));
-            Parent root = loader.load();
-            Scene scene = new Scene(root);
-            primaryStage.setScene(scene);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+//    @FXML
+//    private void handleBackToMain() {
+//        try {
+//            FXMLLoader loader = new FXMLLoader(getClass().getResource("mainView.fxml"));
+//            Parent root = loader.load();
+//            Scene scene = new Scene(root);
+//            primaryStage.setScene(scene);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
 
     // Ajout de la méthode handleClear
     @FXML
